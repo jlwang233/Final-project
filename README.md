@@ -3,7 +3,7 @@ TEMPLATE for your report:
 # Title: CLE vs GSW in 2018 Final
 
 ## Team Member(s):
-Jialu Wang
+Jialu Wang, Qi Qi
 
 # Monte Carlo Simulation Scenario & Purpose:
 Finding which 5 people should CLE put on final to beat GSW supposing all people are still healthy.
