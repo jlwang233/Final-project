@@ -1,6 +1,6 @@
 TEMPLATE for your report:
 
-# Title: CLE vs GSW
+# Title: CLE vs GSW in 2018 Final
 
 ## Team Member(s):
 Jialu Wang
