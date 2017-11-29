@@ -1,6 +1,6 @@
 TEMPLATE for your report:
 
-# Title: CLE vs GSW in 2018 Final
+# Title: CLE vs GSW in 2018 NBA Finals
 
 ## Team Member(s):
 Jialu Wang, Qi Qi
