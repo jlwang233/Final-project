@@ -22,3 +22,4 @@ output the winning possibility
 https://stats.nba.com/players/
 
 (stilling designing the simplified model to be used = =
+(there might be many assumptions...
