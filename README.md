@@ -13,9 +13,9 @@ We observe two types of study units in a library:
 1. individual student (1)
 2. study group (2-6)
 
-We observe three types of room:
-1. independent study seat (1)
-2. study desk (6)
+We observe three types of seat:
+1. study desk (1)
+2. study table (6)
 3. study room (6)
 
 ### Hypothesis before running the simulation:
