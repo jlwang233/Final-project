@@ -1,5 +1,3 @@
-TEMPLATE for your report:
-
 # Title: Finding Seats in Library
 
 ## Team Member(s):
@@ -26,9 +24,8 @@ We observe three types of room:
 3. average incoming study unit rate is 5 min/unit
 
 ### Simulation's variables of uncertainty
-size of incoming study unit
-
-stay time of existing study unit
+1. size of incoming study unit
+2. stay time of existing study unit
 
 ## Instructions on how to use the program:
 
