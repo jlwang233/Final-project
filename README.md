@@ -16,12 +16,14 @@ We observe two types of study units in a library:
 We observe three types of seat:
 1. study desk (1)
 2. study table (6)
-3. study room (6)
+3. study room (up tp 6)
 
 ### Hypothesis before running the simulation:
-1. individual will only seat at study seats/study desk not taken by group
-2. group will only seat at study room/study desk with available rest seats
-3. average incoming study unit rate is 5 min/unit
+1. indiv will first choose desk then table with vacancy.
+2. group will first choose room then table available amount of seats.
+3. a room can only seat a single group; a desk can only seat a single individual.
+4. seatID 1-75 are study desks; 76-100 are study rooms; 101-150 are study desks.
+5. average incoming study unit rate is 5 min/unit.
 
 ### Simulation's variables of uncertainty
 1. size of incoming study unit
