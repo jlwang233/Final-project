@@ -21,15 +21,18 @@ We observe three types of seat:
 ### Hypothesis before running the simulation:
 1. indiv will first choose desk then table with vacancy.
 2. group will first choose room then table available amount of seats.
-3. a room can only seat a single group; a desk can only seat a single individual.
+3. a room can only seat a single group; a desk can only seat a single individual; table can seat both groups and individuals as long as there are enough seats
 4. seatID 1-75 are study desks; 76-100 are study rooms; 101-150 are study desks.
 5. average incoming study unit rate is 5 min/unit.
+6.FIFO
 
 ### Simulation's variables of uncertainty
 1. size of incoming study unit
 2. stay time of existing study unit
 
 ## Instructions on how to use the program:
-
+- input: NewGroupID
+- output: waiting line, expected waiting time, #visualization if possible
+- main structure: 2 classes- Study(), Seat(); 1 function - simulator() ->decision tree
 
 ## Sources Used:
