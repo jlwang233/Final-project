@@ -33,6 +33,6 @@ We observe three types of seat:
 ## Instructions on how to use the program:
 - input: the number of study unit -including individual and group, the number of simulations.
 - output: average waiting time for all the study unit in the quene.
-- main structure: 4 classes- studyMem, seat, table, tableUnit; 1 main function - schedule() ->decision tree
+- main structure: 4 classes- studyMem, seat, table, tableUnit; 1 main function - schedule() ->decision tree; other object comparison functions.
 
 ## Sources Used:
