@@ -24,15 +24,15 @@ We observe three types of seat:
 3. a room can only seat a single group; a desk can only seat a single individual; table can seat both groups and individuals as long as there are enough seats
 4. seatID 1-75 are study desks; 76-100 are study rooms; 101-150 are study tables.
 5. average incoming study unit rate is 5 min/unit.
-6.FIFO
+6. FIFO. Study unit should wait in queue until there are enought seats for them.
 
 ### Simulation's variables of uncertainty
 1. size of incoming study unit
 2. stay time of existing study unit
 
 ## Instructions on how to use the program:
-- input: NewGroupID
-- output: waiting line, expected waiting time, #visualization if possible
-- main structure: 2 classes- Study(), Seat(); 1 function - simulator() ->decision tree
+- input: the number of study unit -including individual and group, the number of simulations.
+- output: average waiting time for all the study unit in the quene.
+- main structure: 4 classes- studyMem, seat, table, tableUnit; 1 main function - schedule() ->decision tree; other object comparison functions.
 
 ## Sources Used:
