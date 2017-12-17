@@ -31,8 +31,11 @@ We observe three types of seat:
 2. stay time of existing study unit
 
 ## Instructions on how to use the program:
-- input: the number of study unit -including individual and group, the number of simulations.
-- output: average waiting time for all the study unit in the quene.
-- main structure: 4 classes- studyMem, seat, table, tableUnit; 1 main function - schedule() ->decision tree; other object comparison functions.
+- input: the number of study unit -including individual and group;
+         the number of simulations.
+- output: total and average waiting time for all the study unit in line;
+          tasks remaining -the number of study unit still wait in line;
+          the last study unit has to wait.
+- main structure: 4 classes- studyUnit, seat, table, tableUnit; 1 main function - schedule() ->decision tree.
 
 ## Sources Used:
