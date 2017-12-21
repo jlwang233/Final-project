@@ -152,9 +152,9 @@ def schedule(members, desks, rooms, tables, lastUnitArriveTime):
 				tables[index].avaTime_space.append(tableUnit(firstUnit.arriveTime + wait_tableTime + firstUnit.studyTime, firstUnit.num))
 
 	print("Total Wait time: " + str(totalWait))
-	print("Average Wait " + str(totalWait * 1.0 / memberSize) + " secs")
+	print("Average Wait " + str(totalWait * 1.0 / memberSize) + " mins")
 	print(str(numWaiting) + " tasks remaining")
-	print("The last study unit has to wait " + str(wait_lastUnit) + "secs")
+	print("The last study unit has to wait " + str(wait_lastUnit) + "mins")
 
 # Running part
 n = int(input("Please input the number of study units(individual and study group): "))
@@ -163,9 +163,9 @@ k = int(input("Please input the number of simulations: "))
 for j in range(k):
 	print("the result of " + str(j + 1) + " simulation")
 	members = queue.Queue()
-	numDesk = 50
+	numDesk = 20
 	numRoom = 10
-	numTable = 20
+	numTable = 5
 	for i in range(n):
 		mem = studyUnit()
 		mem.num = 1 if random.randint(0, 1) == 0 else random.randint(2, 6)
